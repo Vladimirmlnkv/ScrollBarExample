@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7EE93AA51D9933AF007FD034"
-               BuildableName = "ScrollTest.app"
-               BlueprintName = "ScrollTest"
-               ReferencedContainer = "container:ScrollTest.xcodeproj">
+               BuildableName = "ScrollBarExample.app"
+               BlueprintName = "ScrollBarExample"
+               ReferencedContainer = "container:ScrollBarExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7EE93AB91D9933AF007FD034"
-               BuildableName = "ScrollTestTests.xctest"
-               BlueprintName = "ScrollTestTests"
-               ReferencedContainer = "container:ScrollTest.xcodeproj">
+               BuildableName = "ScrollBarExampleTests.xctest"
+               BlueprintName = "ScrollBarExampleTests"
+               ReferencedContainer = "container:ScrollBarExample.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7EE93AC41D9933AF007FD034"
-               BuildableName = "ScrollTestUITests.xctest"
-               BlueprintName = "ScrollTestUITests"
-               ReferencedContainer = "container:ScrollTest.xcodeproj">
+               BuildableName = "ScrollBarExampleUITests.xctest"
+               BlueprintName = "ScrollBarExampleUITests"
+               ReferencedContainer = "container:ScrollBarExample.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7EE93AA51D9933AF007FD034"
-            BuildableName = "ScrollTest.app"
-            BlueprintName = "ScrollTest"
-            ReferencedContainer = "container:ScrollTest.xcodeproj">
+            BuildableName = "ScrollBarExample.app"
+            BlueprintName = "ScrollBarExample"
+            ReferencedContainer = "container:ScrollBarExample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7EE93AA51D9933AF007FD034"
-            BuildableName = "ScrollTest.app"
-            BlueprintName = "ScrollTest"
-            ReferencedContainer = "container:ScrollTest.xcodeproj">
+            BuildableName = "ScrollBarExample.app"
+            BlueprintName = "ScrollBarExample"
+            ReferencedContainer = "container:ScrollBarExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7EE93AA51D9933AF007FD034"
-            BuildableName = "ScrollTest.app"
-            BlueprintName = "ScrollTest"
-            ReferencedContainer = "container:ScrollTest.xcodeproj">
+            BuildableName = "ScrollBarExample.app"
+            BlueprintName = "ScrollBarExample"
+            ReferencedContainer = "container:ScrollBarExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

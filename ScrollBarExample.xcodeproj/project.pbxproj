@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7EA468461D9B085D008FCD4B /* ScrollBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA468451D9B085D008FCD4B /* ScrollBarView.swift */; };
 		7EE93AAA1D9933AF007FD034 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE93AA91D9933AF007FD034 /* AppDelegate.swift */; };
 		7EE93AAC1D9933AF007FD034 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE93AAB1D9933AF007FD034 /* ViewController.swift */; };
 		7EE93AAF1D9933AF007FD034 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EE93AAD1D9933AF007FD034 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		7EE93AB41D9933AF007FD034 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EE93AB21D9933AF007FD034 /* LaunchScreen.storyboard */; };
 		7EE93ABF1D9933AF007FD034 /* ScrollTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE93ABE1D9933AF007FD034 /* ScrollTestTests.swift */; };
 		7EE93ACA1D9933AF007FD034 /* ScrollTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE93AC91D9933AF007FD034 /* ScrollTestUITests.swift */; };
+		7EFDE2CA1D9ABBC500BCD3C4 /* ScrollBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EFDE2C91D9ABBC500BCD3C4 /* ScrollBarView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +36,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7EE93AA61D9933AF007FD034 /* ScrollTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EA468451D9B085D008FCD4B /* ScrollBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollBarView.swift; sourceTree = "<group>"; };
+		7EE93AA61D9933AF007FD034 /* ScrollBarExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollBarExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE93AA91D9933AF007FD034 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EE93AAB1D9933AF007FD034 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7EE93AAE1D9933AF007FD034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7EE93AB01D9933AF007FD034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EE93AB31D9933AF007FD034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EE93AB51D9933AF007FD034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7EE93ABA1D9933AF007FD034 /* ScrollTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EE93ABA1D9933AF007FD034 /* ScrollBarExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollBarExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE93ABE1D9933AF007FD034 /* ScrollTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTestTests.swift; sourceTree = "<group>"; };
 		7EE93AC01D9933AF007FD034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7EE93AC51D9933AF007FD034 /* ScrollTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EE93AC51D9933AF007FD034 /* ScrollBarExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollBarExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE93AC91D9933AF007FD034 /* ScrollTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTestUITests.swift; sourceTree = "<group>"; };
 		7EE93ACB1D9933AF007FD034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EFDE2C91D9ABBC500BCD3C4 /* ScrollBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScrollBarView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +91,9 @@
 		7EE93AA71D9933AF007FD034 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7EE93AA61D9933AF007FD034 /* ScrollTest.app */,
-				7EE93ABA1D9933AF007FD034 /* ScrollTestTests.xctest */,
-				7EE93AC51D9933AF007FD034 /* ScrollTestUITests.xctest */,
+				7EE93AA61D9933AF007FD034 /* ScrollBarExample.app */,
+				7EE93ABA1D9933AF007FD034 /* ScrollBarExampleTests.xctest */,
+				7EE93AC51D9933AF007FD034 /* ScrollBarExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +101,7 @@
 		7EE93AA81D9933AF007FD034 /* ScrollTest */ = {
 			isa = PBXGroup;
 			children = (
+				7EFDE2CB1D9ABBCB00BCD3C4 /* ScrollBar */,
 				7EE93AA91D9933AF007FD034 /* AppDelegate.swift */,
 				7EE93AAB1D9933AF007FD034 /* ViewController.swift */,
 				7EE93AAD1D9933AF007FD034 /* Main.storyboard */,
@@ -125,12 +130,21 @@
 			path = ScrollTestUITests;
 			sourceTree = "<group>";
 		};
+		7EFDE2CB1D9ABBCB00BCD3C4 /* ScrollBar */ = {
+			isa = PBXGroup;
+			children = (
+				7EFDE2C91D9ABBC500BCD3C4 /* ScrollBarView.xib */,
+				7EA468451D9B085D008FCD4B /* ScrollBarView.swift */,
+			);
+			name = ScrollBar;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7EE93AA51D9933AF007FD034 /* ScrollTest */ = {
+		7EE93AA51D9933AF007FD034 /* ScrollBarExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7EE93ACE1D9933AF007FD034 /* Build configuration list for PBXNativeTarget "ScrollTest" */;
+			buildConfigurationList = 7EE93ACE1D9933AF007FD034 /* Build configuration list for PBXNativeTarget "ScrollBarExample" */;
 			buildPhases = (
 				7EE93AA21D9933AF007FD034 /* Sources */,
 				7EE93AA31D9933AF007FD034 /* Frameworks */,
@@ -140,14 +154,14 @@
 			);
 			dependencies = (
 			);
-			name = ScrollTest;
+			name = ScrollBarExample;
 			productName = ScrollTest;
-			productReference = 7EE93AA61D9933AF007FD034 /* ScrollTest.app */;
+			productReference = 7EE93AA61D9933AF007FD034 /* ScrollBarExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7EE93AB91D9933AF007FD034 /* ScrollTestTests */ = {
+		7EE93AB91D9933AF007FD034 /* ScrollBarExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7EE93AD11D9933AF007FD034 /* Build configuration list for PBXNativeTarget "ScrollTestTests" */;
+			buildConfigurationList = 7EE93AD11D9933AF007FD034 /* Build configuration list for PBXNativeTarget "ScrollBarExampleTests" */;
 			buildPhases = (
 				7EE93AB61D9933AF007FD034 /* Sources */,
 				7EE93AB71D9933AF007FD034 /* Frameworks */,
@@ -158,14 +172,14 @@
 			dependencies = (
 				7EE93ABC1D9933AF007FD034 /* PBXTargetDependency */,
 			);
-			name = ScrollTestTests;
+			name = ScrollBarExampleTests;
 			productName = ScrollTestTests;
-			productReference = 7EE93ABA1D9933AF007FD034 /* ScrollTestTests.xctest */;
+			productReference = 7EE93ABA1D9933AF007FD034 /* ScrollBarExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7EE93AC41D9933AF007FD034 /* ScrollTestUITests */ = {
+		7EE93AC41D9933AF007FD034 /* ScrollBarExampleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7EE93AD41D9933AF007FD034 /* Build configuration list for PBXNativeTarget "ScrollTestUITests" */;
+			buildConfigurationList = 7EE93AD41D9933AF007FD034 /* Build configuration list for PBXNativeTarget "ScrollBarExampleUITests" */;
 			buildPhases = (
 				7EE93AC11D9933AF007FD034 /* Sources */,
 				7EE93AC21D9933AF007FD034 /* Frameworks */,
@@ -176,9 +190,9 @@
 			dependencies = (
 				7EE93AC71D9933AF007FD034 /* PBXTargetDependency */,
 			);
-			name = ScrollTestUITests;
+			name = ScrollBarExampleUITests;
 			productName = ScrollTestUITests;
-			productReference = 7EE93AC51D9933AF007FD034 /* ScrollTestUITests.xctest */;
+			productReference = 7EE93AC51D9933AF007FD034 /* ScrollBarExampleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +224,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7EE93AA11D9933AF007FD034 /* Build configuration list for PBXProject "ScrollTest" */;
+			buildConfigurationList = 7EE93AA11D9933AF007FD034 /* Build configuration list for PBXProject "ScrollBarExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -223,9 +237,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7EE93AA51D9933AF007FD034 /* ScrollTest */,
-				7EE93AB91D9933AF007FD034 /* ScrollTestTests */,
-				7EE93AC41D9933AF007FD034 /* ScrollTestUITests */,
+				7EE93AA51D9933AF007FD034 /* ScrollBarExample */,
+				7EE93AB91D9933AF007FD034 /* ScrollBarExampleTests */,
+				7EE93AC41D9933AF007FD034 /* ScrollBarExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -236,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EE93AB41D9933AF007FD034 /* LaunchScreen.storyboard in Resources */,
+				7EFDE2CA1D9ABBC500BCD3C4 /* ScrollBarView.xib in Resources */,
 				7EE93AB11D9933AF007FD034 /* Assets.xcassets in Resources */,
 				7EE93AAF1D9933AF007FD034 /* Main.storyboard in Resources */,
 			);
@@ -263,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EE93AAC1D9933AF007FD034 /* ViewController.swift in Sources */,
+				7EA468461D9B085D008FCD4B /* ScrollBarView.swift in Sources */,
 				7EE93AAA1D9933AF007FD034 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,12 +304,12 @@
 /* Begin PBXTargetDependency section */
 		7EE93ABC1D9933AF007FD034 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7EE93AA51D9933AF007FD034 /* ScrollTest */;
+			target = 7EE93AA51D9933AF007FD034 /* ScrollBarExample */;
 			targetProxy = 7EE93ABB1D9933AF007FD034 /* PBXContainerItemProxy */;
 		};
 		7EE93AC71D9933AF007FD034 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7EE93AA51D9933AF007FD034 /* ScrollTest */;
+			target = 7EE93AA51D9933AF007FD034 /* ScrollBarExample */;
 			targetProxy = 7EE93AC61D9933AF007FD034 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -448,7 +464,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = inspect.ScrollTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollTest.app/ScrollTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollBarExample.app/ScrollBarExample";
 			};
 			name = Debug;
 		};
@@ -463,7 +479,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = inspect.ScrollTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollTest.app/ScrollTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollBarExample.app/ScrollBarExample";
 			};
 			name = Release;
 		};
@@ -498,7 +514,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7EE93AA11D9933AF007FD034 /* Build configuration list for PBXProject "ScrollTest" */ = {
+		7EE93AA11D9933AF007FD034 /* Build configuration list for PBXProject "ScrollBarExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EE93ACC1D9933AF007FD034 /* Debug */,
@@ -507,29 +523,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7EE93ACE1D9933AF007FD034 /* Build configuration list for PBXNativeTarget "ScrollTest" */ = {
+		7EE93ACE1D9933AF007FD034 /* Build configuration list for PBXNativeTarget "ScrollBarExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EE93ACF1D9933AF007FD034 /* Debug */,
 				7EE93AD01D9933AF007FD034 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		7EE93AD11D9933AF007FD034 /* Build configuration list for PBXNativeTarget "ScrollTestTests" */ = {
+		7EE93AD11D9933AF007FD034 /* Build configuration list for PBXNativeTarget "ScrollBarExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EE93AD21D9933AF007FD034 /* Debug */,
 				7EE93AD31D9933AF007FD034 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		7EE93AD41D9933AF007FD034 /* Build configuration list for PBXNativeTarget "ScrollTestUITests" */ = {
+		7EE93AD41D9933AF007FD034 /* Build configuration list for PBXNativeTarget "ScrollBarExampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EE93AD51D9933AF007FD034 /* Debug */,
 				7EE93AD61D9933AF007FD034 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

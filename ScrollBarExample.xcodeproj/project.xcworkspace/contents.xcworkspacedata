@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ScrollTest.xcodeproj">
+      location = "self:/Users/vladimirmelnikov/Documents/Dev/ScrollTest/ScrollBarExample.xcodeproj">
    </FileRef>
 </Workspace>
